@@ -1,3 +1,4 @@
+from django import HttpResponce
 class Contact:
     '''
 class that generates contact
@@ -10,4 +11,7 @@ def __init__(self,name,second,number,email):
     self.number = number 
     self.email = email 
 
+def welcome(request):
+    
+    
     
