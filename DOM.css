@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(222, 105, 105);
+}
+.form-container{
+grid-template-areas:none;
+}
+body input
+{
+    background-color: white;
+    border-radius: 12px;
+    padding-top: 5px;
+    margin-top: 5px;
+}
+button {
+    background-color: rgb(58, 218, 229);
+    border-radius: 10px;
+}
+a:hover button{
+    background-color: rgb(215, 215, 45);
+}
