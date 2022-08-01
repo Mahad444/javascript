@@ -41,18 +41,22 @@
      var userinput = prompt("please choose any options \n0:Nyakua Bonus\n1:My Data Deals\n2:Daily Bundles\n3:Weekly Bundles\n4:Monthly Bundles\n5:No Expiry\n6:Entertainment Bundles\n7:Okoa Data\n8:Lipa Mdogo Mdogo\n98:MORE");switch(userinput){
       case '0':
          var NyakuaBonus=prompt("please choose any options\n1:Buy Nyakua Bundles\n2:Check my Target\n3:check my daily Usage\n4:check my daily usage\n5:join Data Bonus\n6:Opt Out\n7:how it works");
-         break;
+         alert("You have succesfully purchased Your Bundle")
+        break;
       case '1':
          var myDataDeals=prompt("please choose any options\n1:sh.20=250mb for 1hour\n2:sh.50=1GB for 2hours\n3:sh.60=2.5GB for untill 5pm")
+         alert("You have succesfully purchased Your Bundle")
          break;
       case '2':
          var dailyBundle=prompt("please choose any options\n1:Buy for my number\n2:Buy for other number\n3:Stop Autonrenew Usage")
+         alert("You have succesfully purchased Your Bundle")
          break;
       case '3':
          var weeklyBundle=prompt("1:Buy for My Number\n2:Buy for other number\n3:sh.70=300mbs 7days")
+         alert("You have succesfully purchased Your Bundle")
          break;
       case '4':
-         var monthlyBundle=prompt("please choose any options\n1:Data Only Plans\n2:All in one\n3:Buy for another number\n4:Join Postpay\n5:Easy-Talk minutes\n6:Postpay FAQs")
+         var monthlyBundle=prompt("Monthly Bundles\n1:Data Only Plans\n2:All in one\n3:Buy for another number\n4:Join Postpay\n5:Easy-Talk minutes\n6:Postpay FAQs")
          break;
       case '5':
          var noExpiry=prompt("please choose any options\n1:Buy for my number\n2:Buy for other number\n3:Okoa Data\n4:Stop autorenewal\n5:Stop autofill")
@@ -65,8 +69,32 @@
          break;
       case '8':
          var NyakuaBonus=prompt("Want to Join Lipa mdogo mdogo?Great!Review the terms\n @www.safaricom.co.ke\n1:Accept\n2:Reject\n3:Pay for another")
-}
-function allmarks(){
-   
-}
+          break;
+          default: alert('Invalid Input')
+         //  function grading(){
+         //    let marksArray=[];
+         //    for (a=1;a<3;a++){
+         //       var marks=parseInt(prompt("please enter your marks"));
+         //       if (marks){
+         //          marksArray.push(marks);
+         //       }
+         //    }
+        
+         //    const marksArrayClone=[...allzote].sort(a,b) ; {
+         //        if(a<b) return 1;
+         //        if(a===b) return 0;
+         //        if (b<a) return -1
+         //    }
+        
+         //   document.write(allzoteClone+"<br>")
+         //   const smaller=marksArrayClone[0];
+         //   const larger=marksArrayClone[marksArrayClone.length]
+         //   }
+        
+         //  function currency(){
+         //    var currencytype=parseInt(prompt("choose currency type \n Ksh \n EURO"))
+         // }
+        
+     }
+
     
